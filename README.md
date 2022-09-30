@@ -8,7 +8,7 @@ A simple search robot.
 
 ## Background
 
-This project is a learning project with Robot Framework..
+This project is a learning project with Robot Framework.
 
 ## How is it used?
 
@@ -16,7 +16,7 @@ How to run ``command``
 
 ## What next?
 
-
+Use Robot Framework to search on Google with a given word.
 
 ## Acknowledgments
 
