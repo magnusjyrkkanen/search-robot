@@ -1,1 +1,3 @@
 robotframework
+robotframework-seleniumlibrary
+# Selenium also requires browser driver for the browser you want to use to work.

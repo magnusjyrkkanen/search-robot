@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    A simple search robot.
+Documentation    A simple search robot that uses Google search.
 Resource    keywords.resource
 Force Tags    rpa
 
