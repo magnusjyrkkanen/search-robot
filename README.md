@@ -4,7 +4,7 @@ A simple search robot.
 
 ## Summary
 
-A simple search robot.
+A simple search robot that uses Google search to search with a given word.
 
 ## Background
 
@@ -12,11 +12,14 @@ This project is a learning project with Robot Framework.
 
 ## How is it used?
 
-How to run ``command`` 
+Run on command line with ``robot ..\SearchRobot.robot`` from the results directory.
 
 ## What next?
 
-Use Robot Framework to search on Google with a given word.
+Add more features to the robot
+* Option for user to give the search word.
+* A list of multiple default words to robot randomly to choose from.
+* In the end the robot takes a screenshot of the search results.
 
 ## Acknowledgments
 
