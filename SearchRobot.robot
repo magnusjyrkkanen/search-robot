@@ -10,4 +10,5 @@ Google search
     Wait Until Page Contains Element    name=q
     Input Text    name=q    korvapuusti
     Click Button    name=btnK
+    Capture Element Screenshot    id=main    ${OUTPUT DIR}{/}results_{index}.png
     [Teardown]    Close Browser
