@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    This is a resource file.
+Documentation    This is a resource file, that contains variables and keywords.
 Library    SeleniumLibrary
 
 *** Variables ***

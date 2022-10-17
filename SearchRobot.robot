@@ -4,7 +4,7 @@ Resource    keywords.resource
 Force Tags    rpa
 
 *** Tasks ***
-Google search
+Google Search
     Open Browser    https://www.google.com/    chrome
     Click Button    id=W0wltc
     Wait Until Page Contains Element    name=q
