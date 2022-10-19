@@ -5,6 +5,11 @@ Force Tags    rpa
 
 *** Tasks ***
 Google Search
+    IF  '${SEARCH_WORD}' == '${EMPTY}'
+        ${SEARCH_WORD}=    Get Search Word    @{WORD_LIST}
+        Log    Happened
+    END
+
     Open Browser    https://www.google.com/    chrome
     Click Button    id=W0wltc
     Wait Until Page Contains Element    name=q
