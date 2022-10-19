@@ -4,7 +4,7 @@ A simple search robot.
 
 ## Summary
 
-A simple search robot that uses Google search to search with a given word.
+A simple search robot that uses Google search to search with a given word. The user can choose to either use the default word that is set in the code or give a word in the run command.
 
 After the search the robot takes a screenshot of the results.
 
@@ -14,13 +14,16 @@ This project is a learning project with Robot Framework.
 
 ## How is it used?
 
-Run on command line with ``robot ..\SearchRobot.robot`` from the results directory.
+Run with wanted command on command line from the results directory under the project's main directory. Create the results-directory if needed. Robot framework creates the output files to the directory it is run from.
+Run with default search word with command ``robot --rpa ..\SearchRobot.robot``.
+Run with given word with command ``robot -v SEARCH_WORD:your_word --rpa ..\SearchRobot.robot`` and replace "your_word" with the wanted word.
+If the search term contains multiple words, it needs to be inside quotation marks for example "robot framework".
 
 ## What next?
 
 Add more features to the robot
-* Option for user to give the search word.
 * A list of multiple default words to robot randomly to choose from.
+* Python version of the robot.
 
 ## Acknowledgments
 
