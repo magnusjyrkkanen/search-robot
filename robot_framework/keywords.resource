@@ -8,7 +8,7 @@ ${SEARCH_WORD}    ${EMPTY}
 @{WORD_LIST}    korvapuusti    birch    Tove Jansson    Studio Ghibli    kitten
 
 *** Keywords ***
-Get Search Word
+Choose Search Word
     [Arguments]    @{WORD_LIST}
     ${WORD}=    Evaluate    random.choice(@{WORD_LIST})
     RETURN    ${WORD}

@@ -16,6 +16,8 @@ This project is a learning project with Robot Framework.
 
 ## How is it used?
 
+The two versions of the robot are run by different commands.
+
 ### Robot framework version
 
 Run with wanted command on command line from the results directory under the robot framework directory under the project's main directory. Create the results-directory if needed. Robot framework creates the output files to the directory it is run from.
@@ -27,6 +29,8 @@ Run with given word with command ``robot -v SEARCH_WORD:your_word --rpa ..\Searc
 If the search term contains multiple words, it needs to be inside quotation marks, for example "robot framework".
 
 ### Python version
+
+Run the Python robot on command line with ``python search_robot.py`` from the project's python directory.
 
 ## What next?
 

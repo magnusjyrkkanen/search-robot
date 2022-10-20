@@ -6,7 +6,7 @@ Force Tags    rpa
 *** Tasks ***
 Google Search
     IF  '${SEARCH_WORD}' == '${EMPTY}'
-        ${SEARCH_WORD}=    Get Search Word    @{WORD_LIST}
+        ${SEARCH_WORD}=    Choose Search Word    @{WORD_LIST}
         Log    Happened
     END
 
