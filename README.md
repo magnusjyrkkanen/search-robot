@@ -8,7 +8,7 @@ A simple search robot that uses Google search to search with a given word. The u
 
 After the search the robot takes a screenshot of the results.
 
-The project has two versions of the search robot. One is written with Robot framework and second with Python.
+The project has two versions of the search robot. One is written with Robot framework and second with Python. Each version can be found in its own directory.
 
 ## Background
 
@@ -35,7 +35,7 @@ Run the Python robot on command line with ``python search_robot.py`` from the pr
 ## What next?
 
 Add more features to the robot
-* Python version of the robot.
+* Add Python version a results report.
 
 ## Acknowledgments
 
