@@ -7,7 +7,6 @@ Force Tags    rpa
 Google Search
     IF  '${SEARCH_WORD}' == '${EMPTY}'
         ${SEARCH_WORD}=    Choose Search Word    @{WORD_LIST}
-        Log    Happened
     END
 
     Open Browser    https://www.google.com/    chrome
