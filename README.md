@@ -8,15 +8,15 @@ A simple search robot that uses Google search to search with a given word. The u
 
 After the search the robot takes a screenshot of the results.
 
-The project has two versions of the search robot. One is written with Robot framework and second with Python. Each version can be found in its own directory.
+The project has three versions of the search robot. The first two are written with different languades, first being written with Robot framework and second with Python. The third version is done for mobile. Each version can be found in its own directory.
 
 ## Background
 
-This project is a learning project with Robot Framework.
+This project started as a learning project with Robot Framework and robotic process automation.
 
 ## How is it used?
 
-The two versions of the robot are run by different commands.
+The three versions of the robot are run by different commands.
 
 ### Robot framework version
 
@@ -32,10 +32,15 @@ If the search term contains multiple words, it needs to be inside quotation mark
 
 Run the Python robot on command line with ``python search_robot.py`` from the project's python directory.
 
+### Mobile version
+
+Run the mobile robot for android on command line with `` `` from
+
 ## What next?
 
 Add more features to the robot
 * Add Python version a results report.
+* Android version of the robot.
 
 ## Acknowledgments
 
