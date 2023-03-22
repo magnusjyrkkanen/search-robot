@@ -18,6 +18,8 @@ This project started as a learning project with Robot Framework and robotic proc
 
 The three versions of the robot are run by different commands.
 
+Before running the program you have to install required libraries. You can find the requirements in requirements-file or install with ``pip install -r requirements.txt``. To install all requirements including development requirements use command ``pip install -r requirements-dev.txt``. Additionally Selenium requires a browser driver for the browser it uses. In this learning project Chrome is used.
+
 ### Robot framework version
 
 Run with wanted command on command line from the results directory under the robot framework directory under the project's main directory. Create the results-directory if needed. Robot framework creates the output files to the directory it is run from.
@@ -40,7 +42,7 @@ Run the mobile robot for android on command line with `` `` from
 
 Add more features to the robot
 * Add Python version a results report.
-* Android version of the robot.
+* Android mobile version of the robot.
 
 ## Acknowledgments
 

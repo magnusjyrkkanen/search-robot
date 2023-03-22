@@ -1,3 +1,5 @@
+# Requirements for Search robot -project.
+
 robotframework
 robotframework-seleniumlibrary
 # Selenium also requires a browser driver for the browser it uses.
