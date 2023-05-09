@@ -1,6 +1,7 @@
 import random
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from datetime import datetime
 
 # Variables
 url = "https://www.google.com/"
@@ -10,10 +11,15 @@ wordlist = ["korvapuusti", "birch", "Tove Jansson", "Studio Ghibli", "kitten"]
 
 def search_robot(url, wordlist):
     """A simple search robot that uses Google search and takes a screenshot of the results."""
+    # Search word.
     search_word = None
     search_word = word_input()
     if search_word is None:
         search_word = choose_search_word(wordlist)
+
+    # Date.
+    now = datetime.now()
+    year_month_day = now.strftime("%Y_%m_%d")
 
     # Start Selenium session.
     driver = webdriver.Chrome()
@@ -32,7 +38,7 @@ def search_robot(url, wordlist):
         search_box.send_keys(search_word)
         search_button.click()
         # Take screenshot of the results.
-        driver.save_screenshot(f"./results/results.png")
+        driver.save_screenshot(f"./results/results_{year_month_day}.png")
     finally:
         # Close browser
         driver.quit()
